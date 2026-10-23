@@ -20,7 +20,6 @@ export type Testimonial = {
   id: string;
   quote: string;
   context: string;
-  illustrative: true;
 };
 
 export type NavItem = {

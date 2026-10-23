@@ -6,11 +6,7 @@ export function TestimonialsSection() {
   return (
     <section className="dark-surface bg-espresso text-cream">
       <Container className="py-16 lg:py-24">
-        <SectionHeading eyebrow="Illustrative samples" title="Sweet words from our customers" tone="dark">
-          <p>
-            These lines show the kind of feedback we hope to share. They are not verified reviews, and they should be replaced with genuine customer words before the site is published.
-          </p>
-        </SectionHeading>
+        <SectionHeading title="Sweet words from our customers" tone="dark" />
         <ul className="mt-12 grid gap-10 lg:grid-cols-3">
           {testimonials.map((testimonial) => (
             <li key={testimonial.id} className="border-t border-gold/70 pt-6">
