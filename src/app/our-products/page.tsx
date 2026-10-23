@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   title: "Our Products",
   description:
     "Browse celebration cakes, cupcakes, bread, pastries, and desserts from Cloud Nine Bakery in Ashongman Estate, Accra.",
+  alternates: { canonical: "/our-products" },
   openGraph: {
     title: "Our Products | Cloud Nine Bakery",
     description:

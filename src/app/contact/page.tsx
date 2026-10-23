@@ -11,6 +11,7 @@ const description = `Visit ${siteConfig.name} at ${siteConfig.address.street}, $
 export const metadata: Metadata = {
   title: "Contact",
   description,
+  alternates: { canonical: "/contact" },
   openGraph: {
     title: "Contact | Cloud Nine Bakery",
     description,

@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   title: "Custom Cakes",
   description:
     "Enquire about a custom celebration cake from Cloud Nine Bakery in Accra. Share your occasion, flavour, size, and date for the bakery to confirm.",
+  alternates: { canonical: "/custom-cakes" },
   openGraph: {
     title: "Custom Cakes | Cloud Nine Bakery",
     description:

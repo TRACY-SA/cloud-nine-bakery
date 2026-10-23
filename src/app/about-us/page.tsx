@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   title: "About Us",
   description:
     "Cloud Nine Bakery was established in 2026 in Ashongman Estate, Accra, to make celebrations and everyday moments a little sweeter.",
+  alternates: { canonical: "/about-us" },
   openGraph: {
     title: "About Us | Cloud Nine Bakery",
     description:
