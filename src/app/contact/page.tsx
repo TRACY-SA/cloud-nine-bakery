@@ -3,16 +3,17 @@ import { ContactForm } from "@/components/contact/contact-form";
 import { LocationSection } from "@/components/contact/location-section";
 import { OpeningHours } from "@/components/contact/opening-hours";
 import { Container } from "@/components/ui/container";
+import { siteConfig } from "@/lib/site-config";
 import type { Metadata } from "next";
+
+const description = `Visit ${siteConfig.name} at ${siteConfig.address.street}, ${siteConfig.address.area}, ${siteConfig.address.city}, or call ${siteConfig.phoneDisplay}. Open Monday to Saturday, 8:00 AM to 5:00 PM.`;
 
 export const metadata: Metadata = {
   title: "Contact",
-  description:
-    "Visit Cloud Nine Bakery at GS 5562 – 234, Ashongman Estate, Accra, or call +233 55 767 3345. Open Monday to Saturday, 8:00 AM to 5:00 PM.",
+  description,
   openGraph: {
     title: "Contact | Cloud Nine Bakery",
-    description:
-      "Visit Cloud Nine Bakery at GS 5562 – 234, Ashongman Estate, Accra, or call +233 55 767 3345. Open Monday to Saturday, 8:00 AM to 5:00 PM.",
+    description,
   },
 };
 

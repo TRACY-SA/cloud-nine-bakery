@@ -41,9 +41,9 @@ export const siteConfig: SiteConfig = {
     "An artisan bakery and cake shop in Ashongman Estate, Accra, making celebration cakes, pastries, bread, and everyday treats.",
   description:
     "Discover beautiful celebration cakes, cupcakes, pastries, bread, and desserts at Cloud Nine Bakery in Ashongman Estate, Accra, Ghana.",
-  phoneDisplay: "+233 55 767 3345",
-  phoneTel: "+233557673345",
-  whatsappNumber: "233557673345",
+  phoneDisplay: "+233 53 974 0552",
+  phoneTel: "+233539740552",
+  whatsappNumber: "233539740552",
   email: process.env.NEXT_PUBLIC_BUSINESS_EMAIL?.trim() ?? "",
   address: {
     street: "GS 5562 – 234",

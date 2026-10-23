@@ -17,7 +17,7 @@ export function LocalBusinessJsonLd() {
       .filter((day) => day.hours !== "Closed")
       .map((day) => ({
         "@type": "OpeningHoursSpecification",
-        dayOfWeek: day.day,
+        dayOfWeek: `https://schema.org/${day.day}`,
         opens: "08:00",
         closes: "17:00",
       })),

@@ -43,7 +43,7 @@ Leave `NEXT_PUBLIC_BUSINESS_EMAIL`, `NEXT_PUBLIC_INSTAGRAM_URL`, and `NEXT_PUBLI
 
 ## WhatsApp enquiries
 
-The bakery number used in `wa.me` links is `233557673345`, from `src/lib/site-config.ts`.
+The bakery number used in `wa.me` links is `233539740552`, from `src/lib/site-config.ts`. The displayed number is `+233 53 974 0552`.
 
 Custom-cake and contact forms validate in the browser, then open a WhatsApp chat with a prepared message. Opening the chat does not send the message and does not confirm an order, price, or date. If the window is blocked, the visitor can copy the enquiry. Nothing is stored in the browser.
 
@@ -55,7 +55,7 @@ Dates on the cake form use the Accra calendar (`Africa/Accra`), not the visitor'
 
 - Product names, descriptions, and prices are demonstration content.
 - Photographs are sample food images and should be replaced with Cloud Nine Bakery's own photography.
-- The testimonial section is clearly labelled as illustrative and must be replaced with genuine customer words, or removed.
+- Homepage quotes are sample wording attributed to John, Sandra, and Christine. Replace them with genuine customer words before treating them as reviews.
 - No email address or social profile is invented. Add only real ones.
 - Do not publish delivery promises, payment methods, awards, or lead times that the bakery has not set.
 - Confirm the street address before relying on the Google Maps search link. The site does not place a map pin.
